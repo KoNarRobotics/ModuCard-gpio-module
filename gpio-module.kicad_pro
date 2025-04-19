@@ -528,7 +528,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "base-module.kicad_pro",
+    "filename": "gpio-module.kicad_pro",
     "version": 3
   },
   "net_settings": {
