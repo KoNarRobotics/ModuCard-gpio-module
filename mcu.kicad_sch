@@ -7455,10 +7455,6 @@
 		(uuid "067af60f-ce28-4187-aa10-48c04a19e6fb")
 	)
 	(no_connect
-		(at 154.94 142.24)
-		(uuid "08b4f06b-6cac-4580-ad95-55cf541ebfb6")
-	)
-	(no_connect
 		(at 93.98 137.16)
 		(uuid "0bd0dd0e-451a-4bd8-aabc-ef6c9028cb17")
 	)
@@ -7481,10 +7477,6 @@
 	(no_connect
 		(at 154.94 111.76)
 		(uuid "19f10ed7-503d-4abb-b260-081656b98b16")
-	)
-	(no_connect
-		(at 154.94 137.16)
-		(uuid "1e03dd80-08ad-4f9f-b996-eb8a475caf53")
 	)
 	(no_connect
 		(at 154.94 78.74)
@@ -7629,14 +7621,6 @@
 	(no_connect
 		(at 93.98 139.7)
 		(uuid "c04f4a54-528f-4b0f-81d2-72cea0864f51")
-	)
-	(no_connect
-		(at 154.94 139.7)
-		(uuid "c48b899c-0537-46d0-aee9-7775d49965d5")
-	)
-	(no_connect
-		(at 154.94 144.78)
-		(uuid "c5ad942a-e8fe-4390-bd71-9460ce378870")
 	)
 	(no_connect
 		(at 93.98 134.62)
@@ -8361,6 +8345,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 139.7) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4f9fcd-1f0e-4b35-a260-2e9869ee2353")
+	)
+	(wire
+		(pts
 			(xy 85.09 71.12) (xy 93.98 71.12)
 		)
 		(stroke
@@ -8628,6 +8622,16 @@
 			(type default)
 		)
 		(uuid "674ad036-0eef-46a0-8d94-0220109ef13f")
+	)
+	(wire
+		(pts
+			(xy 154.94 137.16) (xy 157.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6831fdb0-3557-4975-aa8c-5baf1a6f41df")
 	)
 	(bus
 		(pts
@@ -9531,6 +9535,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 142.24) (xy 157.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5eb3ca3-08b8-45aa-a29d-6c23ae17dcb0")
+	)
+	(wire
+		(pts
 			(xy 124.46 33.02) (xy 127 33.02)
 		)
 		(stroke
@@ -10339,6 +10353,28 @@
 		)
 		(uuid "fc9a1760-7ead-476b-b695-f89ceb26690c")
 	)
+	(hierarchical_label "EXT_LED_R"
+		(shape output)
+		(at 157.48 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04065c13-dd11-4c64-b172-6c806207a3ed")
+	)
+	(hierarchical_label "EXT_LED_G"
+		(shape output)
+		(at 157.48 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0afc3d6a-0317-44bf-82b0-e11fe37988fe")
+	)
 	(hierarchical_label "CAN2{RX TX}"
 		(shape input)
 		(at 212.09 90.17 0)
@@ -10349,6 +10385,17 @@
 			(justify left)
 		)
 		(uuid "106074ea-42a0-484d-b5b7-f4c10954b870")
+	)
+	(hierarchical_label "EXT_LED_B"
+		(shape output)
+		(at 157.48 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36108f8d-3956-4cd9-8e7e-62495b18eb94")
 	)
 	(hierarchical_label "USB_MCU{USB}"
 		(shape input)

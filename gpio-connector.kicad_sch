@@ -1314,7 +1314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V_FUSED"
+		(property "Value" "+12V_GPIO"
 			(at 149.86 69.85 0)
 			(effects
 				(font

@@ -38,6 +38,16 @@
 		)
 		(uuid "088fd8c2-eebb-4af1-bbe0-793e15cd7b8f")
 	)
+	(wire
+		(pts
+			(xy 205.74 44.45) (xy 223.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a410bd3-032c-453f-9305-fb370244c176")
+	)
 	(bus
 		(pts
 			(xy 106.68 123.19) (xy 123.19 123.19)
@@ -58,6 +68,16 @@
 		)
 		(uuid "0c1d7469-42a8-449b-8405-80a700e5dd75")
 	)
+	(wire
+		(pts
+			(xy 205.74 46.99) (xy 223.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133cc0d3-f154-48b9-b8ea-5a7a8332b59c")
+	)
 	(bus
 		(pts
 			(xy 123.19 55.88) (xy 116.84 55.88)
@@ -77,6 +97,16 @@
 			(type default)
 		)
 		(uuid "42069d11-2d8b-4c0c-a1bb-3e4cb654db23")
+	)
+	(wire
+		(pts
+			(xy 205.74 49.53) (xy 223.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5242c600-82fb-419a-85ea-5f4c9501fd9c")
 	)
 	(bus
 		(pts
@@ -672,6 +702,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "EXT_LED_B" output
+			(at 205.74 49.53 0)
+			(uuid "6de9c1d6-72ee-4753-8073-501674c44b53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_LED_G" output
+			(at 205.74 46.99 0)
+			(uuid "f33f1e14-067d-425a-9d1b-efd9fcae2d4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_LED_R" output
+			(at 205.74 44.45 0)
+			(uuid "ac52b346-03b5-43d2-87d6-43ebcbba84b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
