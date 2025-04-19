@@ -807,6 +807,46 @@
     [
       "e8ac371f-5104-4cae-bf76-5dce1f5864c3",
       "QSPI FLASH"
+    ],
+    [
+      "4ad8e31a-cde3-429e-898f-5d817c85a694",
+      "RGB LED connector"
+    ],
+    [
+      "3200d16b-13e4-4f35-a189-f6ee81970efa",
+      "MOSFET power stage"
+    ],
+    [
+      "05560d46-8ccc-48df-b10d-1c3a365a35b2",
+      "MOSFET power stage1"
+    ],
+    [
+      "0230d939-768e-429e-8928-f79ac4fd3229",
+      "MOSFET power stage2"
+    ],
+    [
+      "5f7db16d-834d-414e-a24b-79c654644ccf",
+      "GPIO connector"
+    ],
+    [
+      "83bb9cd3-e66c-42fc-8ebd-53e27e95abe3",
+      "GPIO connector1"
+    ],
+    [
+      "d3e6b829-08f5-499b-8b35-220ffa9a4993",
+      "MOSFET power stage"
+    ],
+    [
+      "d3e6b829-08f5-499b-8b35-220ffa9a4993",
+      "MOSFET power stage"
+    ],
+    [
+      "b4df952d-7669-4a91-8ac9-9d4461ce2e59",
+      "GPIO connector2"
+    ],
+    [
+      "d3e6b829-08f5-499b-8b35-220ffa9a4993",
+      "MOSFET power stage"
     ]
   ],
   "text_variables": {

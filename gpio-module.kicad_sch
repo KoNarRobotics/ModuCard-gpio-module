@@ -333,6 +333,202 @@
 		)
 	)
 	(sheet
+		(at 223.52 41.91)
+		(size 26.67 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ad8e31a-cde3-429e-898f-5d817c85a694")
+		(property "Sheetname" "RGB LED connector"
+			(at 223.52 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb-led-connector.kicad_sch"
+			(at 223.52 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B" input
+			(at 223.52 49.53 180)
+			(uuid "2a248df7-7944-44cc-9665-71e5d861e748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G" input
+			(at 223.52 46.99 180)
+			(uuid "d7ccdffd-ee3a-4401-b4c1-663820352e13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R" input
+			(at 223.52 44.45 180)
+			(uuid "ffb75223-d6dd-4b57-8b5c-5b4f5029c7ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 58.42)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f7db16d-834d-414e-a24b-79c654644ccf")
+		(property "Sheetname" "GPIO connector"
+			(at 223.52 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio-connector.kicad_sch"
+			(at 223.52 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "input" input
+			(at 223.52 60.96 180)
+			(uuid "f1720b02-198d-49d2-b0ff-5343d75e4974")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "output" input
+			(at 223.52 63.5 180)
+			(uuid "6da9f681-76c3-4572-bef3-7f36f12b9bf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 72.39)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83bb9cd3-e66c-42fc-8ebd-53e27e95abe3")
+		(property "Sheetname" "GPIO connector1"
+			(at 223.52 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio-connector.kicad_sch"
+			(at 223.52 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "input" input
+			(at 223.52 74.93 180)
+			(uuid "41d64887-43e2-4fd6-9b57-2c1ba8bfb087")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "output" input
+			(at 223.52 77.47 180)
+			(uuid "b1957e47-7cb4-4349-b4ea-00d18dec0840")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 123.19 44.45)
 		(size 25.4 13.97)
 		(exclude_from_sim no)
@@ -482,6 +678,68 @@
 			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 86.36)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4df952d-7669-4a91-8ac9-9d4461ce2e59")
+		(property "Sheetname" "GPIO connector2"
+			(at 223.52 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio-connector.kicad_sch"
+			(at 223.52 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "input" input
+			(at 223.52 88.9 180)
+			(uuid "e5d58da2-a117-4a13-9de0-aeae743d680c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "output" input
+			(at 223.52 91.44 180)
+			(uuid "318e8ed1-e604-4129-8c83-a916ffa596a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "19")
 				)
 			)
 		)
