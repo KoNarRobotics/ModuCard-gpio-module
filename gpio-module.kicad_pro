@@ -826,11 +826,11 @@
     ],
     [
       "5f7db16d-834d-414e-a24b-79c654644ccf",
-      "GPIO connector"
+      "GPIO connector 0"
     ],
     [
       "83bb9cd3-e66c-42fc-8ebd-53e27e95abe3",
-      "GPIO connector1"
+      "GPIO connector 1"
     ],
     [
       "d3e6b829-08f5-499b-8b35-220ffa9a4993",
@@ -842,7 +842,7 @@
     ],
     [
       "b4df952d-7669-4a91-8ac9-9d4461ce2e59",
-      "GPIO connector2"
+      "GPIO connector 2"
     ],
     [
       "d3e6b829-08f5-499b-8b35-220ffa9a4993",
