@@ -3607,7 +3607,7 @@
 	)
 	(rectangle
 		(start 27.94 147.32)
-		(end 69.85 166.37)
+		(end 80.01 166.37)
 		(stroke
 			(width 0)
 			(type default)
@@ -3796,6 +3796,12 @@
 		(uuid "71214315-66d5-4825-87fd-765c43dedc1d")
 	)
 	(junction
+		(at 62.23 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715feb8c-b254-4d5f-a783-97b90d66e031")
+	)
+	(junction
 		(at 146.05 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3908,6 +3914,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd663f60-3953-43d1-b389-81c2e1576960")
+	)
+	(wire
+		(pts
+			(xy 62.23 160.02) (xy 73.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b86d64-51fc-42a0-a557-c9f116addf05")
 	)
 	(wire
 		(pts
@@ -4268,6 +4284,16 @@
 			(type default)
 		)
 		(uuid "659a20e4-60c3-4f15-b3c2-bd1d8fc0ced6")
+	)
+	(wire
+		(pts
+			(xy 62.23 157.48) (xy 62.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66254cba-b13f-4fca-ab7e-c537ee7b45ad")
 	)
 	(wire
 		(pts
@@ -4781,7 +4807,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 157.48) (xy 62.23 160.02)
+			(xy 73.66 157.48) (xy 73.66 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5018,6 +5044,71 @@
 			(justify right bottom)
 		)
 		(uuid "e3d59040-e599-47f6-9cf5-0e65d8a360f4")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01d89238-10bd-48bf-bcb3-b73c1a978cbd")
+		(property "Reference" "#FLG0302"
+			(at 62.23 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d15a76eb-751a-4697-9b8b-79606d4a181d")
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "#FLG0302")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0603,Red")
@@ -10327,7 +10418,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 62.23 157.48 0)
+		(at 73.66 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10335,7 +10426,7 @@
 		(dnp no)
 		(uuid "ccfb333d-f783-4928-b070-8aea314882c7")
 		(property "Reference" "#PWR0335"
-			(at 62.23 161.29 0)
+			(at 73.66 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +10435,7 @@
 			)
 		)
 		(property "Value" "+12V_GPIO"
-			(at 62.23 153.67 0)
+			(at 73.66 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,7 +10443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 157.48 0)
+			(at 73.66 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 157.48 0)
+			(at 73.66 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +10461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 62.23 157.48 0)
+			(at 73.66 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
