@@ -5,12 +5,12 @@
 	(uuid "ba51c50f-f60f-4e62-bc07-1f5c7036722d")
 	(paper "A4")
 	(title_block
-		(title "ModuCard BM STM32H562VGT6")
-		(date "2025-04-18")
-		(rev "1.1.0")
+		(title "ModuCard GPIO module")
+		(date "2025-04-19")
+		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
-		(comment 2 "Project author: <author>")
+		(comment 2 "Project author: Dominik Pluta")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3606,6 +3606,18 @@
 		)
 	)
 	(rectangle
+		(start 27.94 147.32)
+		(end 80.01 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08ef83ca-90c5-46a4-8de9-45ceefd7371d)
+	)
+	(rectangle
 		(start 27.94 93.98)
 		(end 190.5 144.78)
 		(stroke
@@ -3784,6 +3796,12 @@
 		(uuid "71214315-66d5-4825-87fd-765c43dedc1d")
 	)
 	(junction
+		(at 62.23 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715feb8c-b254-4d5f-a783-97b90d66e031")
+	)
+	(junction
 		(at 146.05 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3830,6 +3848,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a873624a-c894-468c-8036-140b4ff2e833")
+	)
+	(junction
+		(at 52.07 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff678fe-949e-4d6f-b31c-c64c414bd090")
 	)
 	(junction
 		(at 165.1 59.69)
@@ -3890,6 +3914,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd663f60-3953-43d1-b389-81c2e1576960")
+	)
+	(wire
+		(pts
+			(xy 62.23 160.02) (xy 73.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b86d64-51fc-42a0-a557-c9f116addf05")
 	)
 	(wire
 		(pts
@@ -4163,6 +4197,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 160.02) (xy 38.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8c2cbf-3459-4de4-9e53-1d2253d01cdc")
+	)
+	(wire
+		(pts
 			(xy 130.81 133.35) (xy 130.81 132.08)
 		)
 		(stroke
@@ -4240,6 +4284,16 @@
 			(type default)
 		)
 		(uuid "659a20e4-60c3-4f15-b3c2-bd1d8fc0ced6")
+	)
+	(wire
+		(pts
+			(xy 62.23 157.48) (xy 62.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66254cba-b13f-4fca-ab7e-c537ee7b45ad")
 	)
 	(wire
 		(pts
@@ -4463,6 +4517,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 157.48) (xy 33.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d6a257-227c-4c70-896a-90e3aab21b66")
+	)
+	(wire
+		(pts
 			(xy 165.1 59.69) (xy 184.15 59.69)
 		)
 		(stroke
@@ -4470,6 +4534,16 @@
 			(type default)
 		)
 		(uuid "9ffaa969-996c-48a9-b69b-233f276b90d0")
+	)
+	(wire
+		(pts
+			(xy 52.07 158.75) (xy 52.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0568112-01d4-4f33-b248-3965e7b8790d")
 	)
 	(wire
 		(pts
@@ -4530,6 +4604,16 @@
 			(type default)
 		)
 		(uuid "aa07345b-76b0-4781-8908-215f985a1e79")
+	)
+	(wire
+		(pts
+			(xy 45.72 160.02) (xy 52.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf7a0b9-9218-4aa1-accb-d37398d6805d")
 	)
 	(wire
 		(pts
@@ -4693,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 160.02) (xy 62.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b0322b-e73f-4f9b-adbb-3d35f2b20647")
+	)
+	(wire
+		(pts
 			(xy 146.05 69.85) (xy 146.05 71.12)
 		)
 		(stroke
@@ -4710,6 +4804,16 @@
 			(type default)
 		)
 		(uuid "d7c15f7c-5368-4d02-849e-fe1aa70f4b02")
+	)
+	(wire
+		(pts
+			(xy 73.66 157.48) (xy 73.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e13021-ccb0-435c-bf64-80f57c04ce4a")
 	)
 	(wire
 		(pts
@@ -4940,6 +5044,71 @@
 			(justify right bottom)
 		)
 		(uuid "e3d59040-e599-47f6-9cf5-0e65d8a360f4")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01d89238-10bd-48bf-bcb3-b73c1a978cbd")
+		(property "Reference" "#FLG0302"
+			(at 62.23 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d15a76eb-751a-4697-9b8b-79606d4a181d")
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "#FLG0302")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0603,Red")
@@ -5363,6 +5532,71 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
+		(at 33.02 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15aa7028-23ef-40c6-a670-d8127d88697f")
+		(property "Reference" "#PWR0314"
+			(at 33.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc19b919-835c-42cc-b8a5-305bada6c654")
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
 		(at 62.23 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5762,6 +5996,74 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
 					(reference "TP300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 41.91 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe22f01-efd9-45e2-a820-a8ff0e360dad")
+		(property "Reference" "F301"
+			(at 41.91 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 41.91 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 41.91 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 41.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc1d0f13-bbb7-46c4-8f80-7ebe7e24e9f6")
+		)
+		(pin "2"
+			(uuid "71e45052-b03d-4462-b715-6539d57948e8")
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "F301")
 					(unit 1)
 				)
 			)
@@ -9158,6 +9460,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b019ba87-d550-4127-9391-ab77069d6914")
+		(property "Reference" "TP303"
+			(at 52.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 54.61 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f206787a-87ef-4265-b1a7-54ac0572de0d")
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "TP303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF,(2)")
 		(at 154.94 69.85 0)
 		(unit 1)
@@ -10043,6 +10411,71 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
 					(reference "#PWR415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 73.66 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccfb333d-f783-4928-b070-8aea314882c7")
+		(property "Reference" "#PWR0335"
+			(at 73.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_GPIO"
+			(at 73.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0ed533a-ab71-4f2f-95ee-bc043cf583fa")
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "#PWR0335")
 					(unit 1)
 				)
 			)
