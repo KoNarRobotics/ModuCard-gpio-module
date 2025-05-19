@@ -11164,7 +11164,7 @@
 		(uuid "3c3e0225-5026-47d0-aef5-691822be491d")
 	)
 	(label "GPIOR10"
-		(at 168.8677 96.52 180)
+		(at 168.91 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11444,7 +11444,7 @@
 		(uuid "775d6fd3-22ad-4c9e-94e3-5ef726ab36fb")
 	)
 	(label "GPIOR9"
-		(at 168.8677 99.06 180)
+		(at 168.91 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
