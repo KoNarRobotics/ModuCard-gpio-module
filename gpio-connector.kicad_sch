@@ -1272,7 +1272,7 @@
 		(uuid "fd638d9a-d887-43c9-9470-7ba7f4940915")
 	)
 	(hierarchical_label "input"
-		(shape input)
+		(shape output)
 		(at 120.65 96.52 180)
 		(effects
 			(font
@@ -1302,7 +1302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c7e1f4c-f473-4d13-a9c4-75cbbba67684")
-		(property "Reference" "R431"
+		(property "Reference" "R"
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -1501,23 +1501,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "066a3787-df64-4244-b1d8-e7a5f31d4fe9")
+			(uuid "cc90798a-6696-4c44-8c22-a09c761acac5")
 		)
 		(pin "2"
-			(uuid "3b01393a-c8f5-438e-861c-2a8462d77fea")
+			(uuid "2e5508af-de61-4a34-a626-e6507f12e5ca")
 		)
 		(instances
-			(project ""
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/5f7db16d-834d-414e-a24b-79c654644ccf"
-					(reference "R431")
-					(unit 1)
-				)
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/83bb9cd3-e66c-42fc-8ebd-53e27e95abe3"
-					(reference "R432")
-					(unit 1)
-				)
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b4df952d-7669-4a91-8ac9-9d4461ce2e59"
-					(reference "R433")
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/a33dc8b1-4620-4cf7-8065-8ae8af0e84cf"
+					(reference "R434")
 					(unit 1)
 				)
 			)
@@ -1577,7 +1569,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "145dc920-bae0-4015-9f07-6c30d82beaec")
+			(uuid "12b69cc1-afc9-4e15-8a85-749b65ff07b5")
 		)
 		(instances
 			(project "gpio-module"
@@ -1587,6 +1579,10 @@
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/83bb9cd3-e66c-42fc-8ebd-53e27e95abe3"
 					(reference "#PWR0478")
+					(unit 1)
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/a33dc8b1-4620-4cf7-8065-8ae8af0e84cf"
+					(reference "#PWR0489")
 					(unit 1)
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b4df952d-7669-4a91-8ac9-9d4461ce2e59"
@@ -1804,10 +1800,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "866328a3-7012-490e-85f3-57d111c12072")
+			(uuid "ab58c299-f944-4456-bb3d-01944ec443bc")
 		)
 		(pin "1"
-			(uuid "484121a0-993c-496f-8e92-d07fc4356d68")
+			(uuid "028dda2f-e5b9-40bf-ada1-cbd82058f42c")
 		)
 		(instances
 			(project "gpio-module"
@@ -1817,6 +1813,10 @@
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/83bb9cd3-e66c-42fc-8ebd-53e27e95abe3"
 					(reference "R424")
+					(unit 1)
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/a33dc8b1-4620-4cf7-8065-8ae8af0e84cf"
+					(reference "R435")
 					(unit 1)
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b4df952d-7669-4a91-8ac9-9d4461ce2e59"
@@ -1880,7 +1880,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "eedee18f-9ad7-489b-90c0-7cceb0a234ff")
+			(uuid "3cf5c477-d941-468f-b1fa-a404f5b7cbcb")
 		)
 		(instances
 			(project "gpio-module"
@@ -1890,6 +1890,10 @@
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/83bb9cd3-e66c-42fc-8ebd-53e27e95abe3"
 					(reference "#PWR0312")
+					(unit 1)
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/a33dc8b1-4620-4cf7-8065-8ae8af0e84cf"
+					(reference "#PWR0324")
 					(unit 1)
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b4df952d-7669-4a91-8ac9-9d4461ce2e59"
@@ -1961,16 +1965,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "265eca20-f3e8-41d3-b8c9-8b17416e5d0d")
+			(uuid "c42fc3db-ebdb-4c3f-b6b3-b03b3fc69e7d")
 		)
 		(pin "3"
-			(uuid "2f334a09-d54e-417e-b38a-c89fe0417953")
+			(uuid "670f2f3c-714c-4f99-aa8f-f47c315a556c")
 		)
 		(pin "4"
-			(uuid "3fb3641e-3dbe-4fa2-9a6f-9c38c97343cb")
+			(uuid "5070b239-b14c-4c22-a474-c1bcbe85dde1")
 		)
 		(pin "2"
-			(uuid "a0e776bd-7ad9-42dc-b6cb-b00875f929e2")
+			(uuid "60c1f34b-feea-4a9e-a011-8fe2e2e5e6a4")
 		)
 		(instances
 			(project "gpio-module"
@@ -1980,6 +1984,10 @@
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/83bb9cd3-e66c-42fc-8ebd-53e27e95abe3"
 					(reference "J10")
+					(unit 1)
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/a33dc8b1-4620-4cf7-8065-8ae8af0e84cf"
+					(reference "J8")
 					(unit 1)
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b4df952d-7669-4a91-8ac9-9d4461ce2e59"
@@ -1997,8 +2005,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ef438c32-466e-4e4e-9d6f-03840a94959f")
-		(property "Reference" "#PWR0325"
+		(fields_autoplaced yes)
+		(uuid "ecf0d3c1-688c-470d-9de1-783f403971f9")
+		(property "Reference" "#PWR"
 			(at 177.8 77.47 0)
 			(effects
 				(font
@@ -2007,8 +2016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 177.8 69.85 0)
+		(property "Value" "+5V"
+			(at 177.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,20 +2052,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "672d09b5-42f1-4c92-bb37-a48ee26bd1cc")
+			(uuid "1aae711c-494a-4ebb-b1f2-4ffd0fede7a0")
 		)
 		(instances
 			(project "gpio-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/5f7db16d-834d-414e-a24b-79c654644ccf"
-					(reference "#PWR0325")
-					(unit 1)
-				)
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/83bb9cd3-e66c-42fc-8ebd-53e27e95abe3"
-					(reference "#PWR0326")
-					(unit 1)
-				)
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b4df952d-7669-4a91-8ac9-9d4461ce2e59"
-					(reference "#PWR0333")
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/a33dc8b1-4620-4cf7-8065-8ae8af0e84cf"
+					(reference "#PWR0488")
 					(unit 1)
 				)
 			)
@@ -2098,7 +2099,7 @@
 		)
 		(pin "input" input
 			(at 127 90.17 180)
-			(uuid "92a91b49-0d2b-4639-81be-6221ce8e9c13")
+			(uuid "308398ce-5b3e-4e19-bcb9-84e18e40c6d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2109,7 @@
 		)
 		(pin "output" output
 			(at 147.32 90.17 0)
-			(uuid "eb19d7bd-a750-4408-94e7-515a50f7aa5b")
+			(uuid "96363ac7-b266-44db-ad0e-f4b99cc86496")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,6 +2127,9 @@
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b4df952d-7669-4a91-8ac9-9d4461ce2e59"
 					(page "20")
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/a33dc8b1-4620-4cf7-8065-8ae8af0e84cf"
+					(page "22")
 				)
 			)
 		)

@@ -530,24 +530,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_issues|1066800|1041400|b7c2c80d-8ff4-412e-94ce-f764f8a3191c|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "pin_to_pin|2298700|952500|096a1b71-643d-4915-abc7-88e600b2a9ce|cd611031-12eb-4281-91d7-ddadb10329c8|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1727200|1016000|f04b3a18-d8e2-45f2-ac8e-5d76979bc21c|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/e8ac371f-5104-4cae-bf76-5dce1f5864c3|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/e8ac371f-5104-4cae-bf76-5dce1f5864c3|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|889000|1879600|0b7ef83b-8023-4b0b-b8f7-795a02ea36eb|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -1053,22 +1036,6 @@
       "QSPI FLASH"
     ],
     [
-      "4ad8e31a-cde3-429e-898f-5d817c85a694",
-      "RGB LED connector"
-    ],
-    [
-      "3200d16b-13e4-4f35-a189-f6ee81970efa",
-      "MOSFET power stage"
-    ],
-    [
-      "05560d46-8ccc-48df-b10d-1c3a365a35b2",
-      "MOSFET power stage1"
-    ],
-    [
-      "0230d939-768e-429e-8928-f79ac4fd3229",
-      "MOSFET power stage2"
-    ],
-    [
       "5f7db16d-834d-414e-a24b-79c654644ccf",
       "GPIO connector 0"
     ],
@@ -1087,6 +1054,14 @@
     [
       "b4df952d-7669-4a91-8ac9-9d4461ce2e59",
       "GPIO connector 2"
+    ],
+    [
+      "d3e6b829-08f5-499b-8b35-220ffa9a4993",
+      "MOSFET power stage"
+    ],
+    [
+      "a33dc8b1-4620-4cf7-8065-8ae8af0e84cf",
+      "GPIO connector 3"
     ],
     [
       "d3e6b829-08f5-499b-8b35-220ffa9a4993",
