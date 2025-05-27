@@ -3862,6 +3862,12 @@
 		(uuid "b06c2d03-e45d-4545-abad-59297e81eb12")
 	)
 	(junction
+		(at 33.02 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbb2fda6-7e2c-4b9e-85ff-1b70e26f312e")
+	)
+	(junction
 		(at 149.86 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3967,6 +3973,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 76.2) (xy 41.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e1ab7c-3190-4299-be2d-85468d47faf7")
+	)
+	(wire
+		(pts
 			(xy 130.81 119.38) (xy 130.81 123.19)
 		)
 		(stroke
@@ -3974,6 +3990,16 @@
 			(type default)
 		)
 		(uuid "19c5eda5-3261-4c8a-9faa-be1d395e5a1a")
+	)
+	(wire
+		(pts
+			(xy 41.91 78.74) (xy 33.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1beb84b9-12de-4685-aec0-adc296eb0769")
 	)
 	(wire
 		(pts
@@ -4194,6 +4220,16 @@
 			(type default)
 		)
 		(uuid "56c8ed0b-fbdb-4b8e-bd16-c32c35d19b96")
+	)
+	(wire
+		(pts
+			(xy 33.02 78.74) (xy 33.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570cb63c-0c36-40f7-a14e-9241624876fb")
 	)
 	(wire
 		(pts
@@ -4827,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 80.01) (xy 33.02 77.47)
+			(xy 33.02 80.01) (xy 33.02 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6064,6 +6100,71 @@
 			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
 					(reference "F301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28605bc5-b713-4e31-8d0d-8789dddd9ec2")
+		(property "Reference" "#FLG0303"
+			(at 41.91 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fd2c34e-748a-4135-ac3c-b92c4a243ba8")
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb"
+					(reference "#FLG0303")
 					(unit 1)
 				)
 			)

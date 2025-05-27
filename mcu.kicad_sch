@@ -7507,6 +7507,10 @@
 		(uuid "cd19f6fe-b7a0-4d04-914a-3215211b33f2")
 	)
 	(no_connect
+		(at 157.48 137.16)
+		(uuid "cf9fe49a-b61e-4b25-82dd-cf0a675df60b")
+	)
+	(no_connect
 		(at 154.94 109.22)
 		(uuid "e989cbfc-4f35-4525-9aaa-d302f8aacd5e")
 	)
@@ -12194,7 +12198,7 @@
 		)
 		(uuid "fc9a1760-7ead-476b-b695-f89ceb26690c")
 	)
-	(hierarchical_label "EXT_LED_R"
+	(hierarchical_label "GPIO_3_IN"
 		(shape output)
 		(at 157.48 139.7 0)
 		(effects
@@ -12205,7 +12209,7 @@
 		)
 		(uuid "04065c13-dd11-4c64-b172-6c806207a3ed")
 	)
-	(hierarchical_label "EXT_LED_G"
+	(hierarchical_label "GPIO_3_OUT"
 		(shape output)
 		(at 157.48 142.24 0)
 		(effects
@@ -12248,17 +12252,6 @@
 			(justify left)
 		)
 		(uuid "1ed50538-7d0e-4db5-9ad1-29a8f0bd0d3f")
-	)
-	(hierarchical_label "EXT_LED_B"
-		(shape output)
-		(at 157.48 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36108f8d-3956-4cd9-8e7e-62495b18eb94")
 	)
 	(hierarchical_label "GPIO_2_IN"
 		(shape input)

@@ -30,16 +30,6 @@
 		)
 		(uuid "088fd8c2-eebb-4af1-bbe0-793e15cd7b8f")
 	)
-	(wire
-		(pts
-			(xy 205.74 44.45) (xy 223.52 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a410bd3-032c-453f-9305-fb370244c176")
-	)
 	(bus
 		(pts
 			(xy 106.68 123.19) (xy 123.19 123.19)
@@ -59,16 +49,6 @@
 			(type default)
 		)
 		(uuid "0c1d7469-42a8-449b-8405-80a700e5dd75")
-	)
-	(wire
-		(pts
-			(xy 205.74 46.99) (xy 223.52 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "133cc0d3-f154-48b9-b8ea-5a7a8332b59c")
 	)
 	(bus
 		(pts
@@ -130,16 +110,6 @@
 		)
 		(uuid "42069d11-2d8b-4c0c-a1bb-3e4cb654db23")
 	)
-	(wire
-		(pts
-			(xy 205.74 49.53) (xy 223.52 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5242c600-82fb-419a-85ea-5f4c9501fd9c")
-	)
 	(bus
 		(pts
 			(xy 71.12 88.9) (xy 71.12 163.83)
@@ -149,6 +119,16 @@
 			(type default)
 		)
 		(uuid "5cc5a1c4-0c41-45ef-96d7-80e3e32c4db1")
+	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a05b13b-4d4d-4f7d-887e-f2c080a318c2")
 	)
 	(bus
 		(pts
@@ -269,6 +249,16 @@
 			(type default)
 		)
 		(uuid "c6144b46-b454-40d4-a3c5-b65ebc60fe2f")
+	)
+	(wire
+		(pts
+			(xy 205.74 48.26) (xy 223.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b1b358-d3da-4bc2-a59d-a5f298604478")
 	)
 	(bus
 		(pts
@@ -515,78 +505,6 @@
 		)
 	)
 	(sheet
-		(at 223.52 41.91)
-		(size 26.67 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4ad8e31a-cde3-429e-898f-5d817c85a694")
-		(property "Sheetname" "RGB LED connector"
-			(at 223.52 41.1984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "rgb-led-connector.kicad_sch"
-			(at 223.52 52.6546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "B" input
-			(at 223.52 49.53 180)
-			(uuid "2a248df7-7944-44cc-9665-71e5d861e748")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "G" input
-			(at 223.52 46.99 180)
-			(uuid "d7ccdffd-ee3a-4401-b4c1-663820352e13")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "R" input
-			(at 223.52 44.45 180)
-			(uuid "ffb75223-d6dd-4b57-8b5c-5b4f5029c7ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "gpio-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 223.52 58.42)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
@@ -620,9 +538,9 @@
 				(justify left top)
 			)
 		)
-		(pin "input" input
-			(at 223.52 60.96 180)
-			(uuid "f1720b02-198d-49d2-b0ff-5343d75e4974")
+		(pin "output" input
+			(at 223.52 63.5 180)
+			(uuid "0feaa438-3561-48d2-bf41-906ef334f7da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -630,9 +548,9 @@
 				(justify left)
 			)
 		)
-		(pin "output" input
-			(at 223.52 63.5 180)
-			(uuid "6da9f681-76c3-4572-bef3-7f36f12b9bf1")
+		(pin "input" output
+			(at 223.52 60.96 180)
+			(uuid "aa00bcd1-ccc4-4473-8d5a-982806b4adae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,9 +600,9 @@
 				(justify left top)
 			)
 		)
-		(pin "input" input
-			(at 223.52 74.93 180)
-			(uuid "41d64887-43e2-4fd6-9b57-2c1ba8bfb087")
+		(pin "output" input
+			(at 223.52 77.47 180)
+			(uuid "80bae7ce-c85f-4a1f-ab5c-2765aed6db4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,9 +610,9 @@
 				(justify left)
 			)
 		)
-		(pin "output" input
-			(at 223.52 77.47 180)
-			(uuid "b1957e47-7cb4-4349-b4ea-00d18dec0840")
+		(pin "input" output
+			(at 223.52 74.93 180)
+			(uuid "513f66ee-57a2-4004-88d4-a50fd90164df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,6 +686,68 @@
 			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 43.18)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a33dc8b1-4620-4cf7-8065-8ae8af0e84cf")
+		(property "Sheetname" "GPIO connector 3"
+			(at 223.52 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio-connector.kicad_sch"
+			(at 223.52 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" input
+			(at 223.52 48.26 180)
+			(uuid "bb29f498-c86a-4c6d-ad01-843229df57cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "input" output
+			(at 223.52 45.72 180)
+			(uuid "c80fb778-59fb-4ca8-92d9-f0daa9ac4aa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gpio-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "21")
 				)
 			)
 		)
@@ -856,36 +836,6 @@
 				(justify left)
 			)
 		)
-		(pin "EXT_LED_B" output
-			(at 205.74 49.53 0)
-			(uuid "6de9c1d6-72ee-4753-8073-501674c44b53")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EXT_LED_G" output
-			(at 205.74 46.99 0)
-			(uuid "f33f1e14-067d-425a-9d1b-efd9fcae2d4a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EXT_LED_R" output
-			(at 205.74 44.45 0)
-			(uuid "ac52b346-03b5-43d2-87d6-43ebcbba84b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO_0_IN" input
 			(at 205.74 60.96 0)
 			(uuid "fb75ee81-7873-4a80-a5b8-3f52a470bb91")
@@ -966,6 +916,26 @@
 				(justify right)
 			)
 		)
+		(pin "GPIO_3_OUT" output
+			(at 205.74 48.26 0)
+			(uuid "5deffa49-7239-40bf-998c-b5ca8f6294b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_3_IN" output
+			(at 205.74 45.72 0)
+			(uuid "565577a2-1237-4b2c-93a6-cceed79d37a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
@@ -1008,9 +978,9 @@
 				(justify left top)
 			)
 		)
-		(pin "input" input
-			(at 223.52 88.9 180)
-			(uuid "e5d58da2-a117-4a13-9de0-aeae743d680c")
+		(pin "output" input
+			(at 223.52 91.44 180)
+			(uuid "455d4089-d55f-4a1d-b439-7300b130e3d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,9 +988,9 @@
 				(justify left)
 			)
 		)
-		(pin "output" input
-			(at 223.52 91.44 180)
-			(uuid "318e8ed1-e604-4129-8c83-a916ffa596a0")
+		(pin "input" output
+			(at 223.52 88.9 180)
+			(uuid "fb19f50c-f6ef-464d-b792-9e245e9e801c")
 			(effects
 				(font
 					(size 1.27 1.27)
