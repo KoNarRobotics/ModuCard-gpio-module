@@ -528,7 +528,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "base-module.kicad_pro",
+    "filename": "gpio-module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -680,7 +680,13 @@
       "unconnected-(U403-PA0-Pad23)": [
         "ADC"
       ],
+      "unconnected-(U403-PA1-Pad24)": [
+        "ADC"
+      ],
       "unconnected-(U403-PA2-Pad25)": [
+        "ADC"
+      ],
+      "unconnected-(U403-PA3-Pad26)": [
         "ADC"
       ],
       "unconnected-(U403-PA4-Pad29)": [

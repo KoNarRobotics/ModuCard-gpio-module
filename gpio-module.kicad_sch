@@ -102,7 +102,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 137.16) (xy 218.44 165.1)
+			(xy 218.44 137.16) (xy 218.44 161.29)
 		)
 		(stroke
 			(width 0)
@@ -142,7 +142,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 165.1) (xy 72.39 165.1)
+			(xy 218.44 161.29) (xy 72.39 161.29)
 		)
 		(stroke
 			(width 0)
@@ -212,7 +212,7 @@
 	)
 	(bus
 		(pts
-			(xy 72.39 165.1) (xy 72.39 96.52)
+			(xy 72.39 161.29) (xy 72.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -394,7 +394,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "6")
 				)
@@ -456,7 +456,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "13")
 				)
@@ -518,7 +518,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "17")
 				)
@@ -560,7 +560,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "3")
 				)
@@ -621,7 +621,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "5")
 				)
@@ -683,7 +683,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "11")
 				)
@@ -745,7 +745,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "15")
 				)
@@ -807,7 +807,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "8")
 				)
@@ -999,7 +999,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "4")
 				)
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "9")
 				)
@@ -1123,7 +1123,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "10")
 				)
@@ -1185,7 +1185,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "7")
 				)
@@ -1287,7 +1287,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "2")
 				)

@@ -2143,7 +2143,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "gpio-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/482f7d0c-144a-4b8c-8f49-834e199b564c"
 					(page "12")
 				)
