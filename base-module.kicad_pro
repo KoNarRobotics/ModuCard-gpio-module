@@ -126,7 +126,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -809,7 +809,7 @@
       "QSPI FLASH"
     ],
     [
-      "b0ae0dc1-1dc3-4071-a986-cf1be8ac718c",
+      "482f7d0c-144a-4b8c-8f49-834e199b564c",
       "GPIO connector 0"
     ],
     [
@@ -817,7 +817,7 @@
       "MOSFET power stage"
     ],
     [
-      "21e14c9e-8cb5-4c0d-8827-cab6b62735cd",
+      "2eacc112-c748-4514-8f19-54a63b484540",
       "GPIO connector 1"
     ],
     [
@@ -825,7 +825,7 @@
       "MOSFET power stage"
     ],
     [
-      "b5a8ed9d-2492-499d-884c-f314ed804d88",
+      "8f334819-7829-459d-a376-c28f1c3582e9",
       "GPIO connector 2"
     ],
     [
@@ -833,7 +833,7 @@
       "MOSFET power stage"
     ],
     [
-      "1e4742a2-145a-46a6-8222-17374fa3a593",
+      "3ce14170-f6f1-4e98-bfea-8e2751441f01",
       "GPIO connector 3"
     ],
     [
