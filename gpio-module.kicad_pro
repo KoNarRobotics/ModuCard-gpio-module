@@ -552,6 +552,19 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ADC",
+        "pcb_color": "rgb(0, 0, 132)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 132)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.12,
@@ -561,7 +574,7 @@
         "microvia_drill": 0.1,
         "name": "CAN_120_DIFF",
         "pcb_color": "rgb(255, 81, 215)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.5,
@@ -578,7 +591,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -595,7 +608,7 @@
         "microvia_drill": 0.1,
         "name": "QSPI_50S_SE",
         "pcb_color": "rgb(55, 255, 75)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "via_diameter": 0.5,
@@ -612,7 +625,7 @@
         "microvia_drill": 0.1,
         "name": "USB_90_DIFF",
         "pcb_color": "rgb(38, 8, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.5,
@@ -624,7 +637,56 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Backplane/GPIOR10": [
+        "ADC"
+      ],
+      "/Backplane/GPIOR11": [
+        "ADC"
+      ],
+      "/Backplane/GPIOR12": [
+        "ADC"
+      ],
+      "/Backplane/GPIOR13": [
+        "ADC"
+      ],
+      "/Backplane/GPIOR14": [
+        "ADC"
+      ],
+      "/Backplane/GPIOR15": [
+        "ADC"
+      ],
+      "/Backplane/GPIOR9": [
+        "ADC"
+      ],
+      "/GPIO connector 0/input": [
+        "ADC"
+      ],
+      "/GPIO connector 1/input": [
+        "ADC"
+      ],
+      "/GPIO connector 1/output": [
+        "ADC"
+      ],
+      "/GPIO connector 2/input": [
+        "ADC"
+      ],
+      "/GPIO connector 2/output": [
+        "ADC"
+      ],
+      "/GPIO connector 3/input": [
+        "ADC"
+      ],
+      "unconnected-(U403-PA0-Pad23)": [
+        "ADC"
+      ],
+      "unconnected-(U403-PA2-Pad25)": [
+        "ADC"
+      ],
+      "unconnected-(U403-PA4-Pad29)": [
+        "ADC"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "USB_90_DIFF",

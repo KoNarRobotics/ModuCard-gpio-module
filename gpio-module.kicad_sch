@@ -948,7 +948,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_1_OUT" input
+		(pin "GPIO_1_OUT" output
 			(at 205.74 60.96 0)
 			(uuid "3ba1ead5-554f-419e-bfc4-8bc2c254745d")
 			(effects
@@ -968,7 +968,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_2_OUT" input
+		(pin "GPIO_2_OUT" output
 			(at 205.74 74.93 0)
 			(uuid "dab212d3-0c1c-47e5-a013-92504600c757")
 			(effects
@@ -978,7 +978,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_3_IN" output
+		(pin "GPIO_3_IN" input
 			(at 205.74 86.36 0)
 			(uuid "66e72880-e007-4db1-ab43-8d9eeff322d0")
 			(effects

@@ -6809,7 +6809,7 @@
 		(uuid 838b53fc-bdde-462c-9861-35d122f76f52)
 	)
 	(rectangle
-		(start 177.8 13.97)
+		(start 179.07 13.97)
 		(end 217.17 72.39)
 		(stroke
 			(width 0)
@@ -7248,10 +7248,6 @@
 	(no_connect
 		(at 93.98 78.74)
 		(uuid "9e9d835b-d152-4084-b9b7-d83fb9eb827a")
-	)
-	(no_connect
-		(at 157.48 137.16)
-		(uuid "ac3fd0b4-28b0-4218-bf2d-c3be12daf854")
 	)
 	(no_connect
 		(at 90.17 73.66)
@@ -11975,19 +11971,19 @@
 		)
 		(uuid "106074ea-42a0-484d-b5b7-f4c10954b870")
 	)
-	(hierarchical_label "GPIO_2_IN"
+	(hierarchical_label "GPIO_0_IN"
 		(shape input)
-		(at 157.48 63.5 0)
+		(at 157.48 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1af14b5f-8040-410c-9028-a192fe2cf866")
+		(uuid "2582b6ce-3ae0-44a2-92d0-1ea05f45d1b1")
 	)
-	(hierarchical_label "GPIO_0_OUT"
-		(shape output)
+	(hierarchical_label "GPIO_2_IN"
+		(shape input)
 		(at 157.48 144.78 0)
 		(effects
 			(font
@@ -11995,7 +11991,18 @@
 			)
 			(justify left)
 		)
-		(uuid "30d151cc-b874-40ca-be43-677229ce96c8")
+		(uuid "29eb3053-b6aa-4c97-bcce-72805a72dee0")
+	)
+	(hierarchical_label "GPIO_0_OUT"
+		(shape output)
+		(at 187.96 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36dda421-762e-4648-8578-988f915cf305")
 	)
 	(hierarchical_label "USB_MCU{USB}"
 		(shape input)
@@ -12007,6 +12014,17 @@
 			(justify left)
 		)
 		(uuid "548b52a2-0491-4908-b420-116aa9d05252")
+	)
+	(hierarchical_label "GPIO_1_IN"
+		(shape input)
+		(at 157.48 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6626613b-9d5e-48ae-8a42-325f3678f112")
 	)
 	(hierarchical_label "GPIO_1_OUT"
 		(shape input)
@@ -12030,17 +12048,6 @@
 		)
 		(uuid "8bd889b2-ee9f-4d7f-931d-ed16fbb65131")
 	)
-	(hierarchical_label "GPIO_0_IN"
-		(shape input)
-		(at 157.48 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a76b4c2-3c4f-495d-b8eb-916614a25483")
-	)
 	(hierarchical_label "QSPI1{QSPI}"
 		(shape bidirectional)
 		(at 200.66 39.37 0)
@@ -12051,6 +12058,28 @@
 			(justify left)
 		)
 		(uuid "a35dc295-fa6d-4e67-9b5a-786117c6e005")
+	)
+	(hierarchical_label "GPIO_3_IN"
+		(shape input)
+		(at 157.48 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a60aa4b7-0b6a-4a13-9ec0-5529a0727c7f")
+	)
+	(hierarchical_label "GPIO_3_OUT"
+		(shape output)
+		(at 187.96 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aece6e5c-3097-45c9-830e-b6a7cd586f0e")
 	)
 	(hierarchical_label "GPIOL[0..15]"
 		(shape input)
@@ -12063,17 +12092,6 @@
 		)
 		(uuid "b981eb51-e567-4ce6-9359-9ea91d0c71fe")
 	)
-	(hierarchical_label "GPIO_3_IN"
-		(shape output)
-		(at 157.48 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2111fb3-3a27-4ca4-9e64-eed620616c04")
-	)
 	(hierarchical_label "GPIO_2_OUT"
 		(shape input)
 		(at 157.48 60.96 0)
@@ -12084,17 +12102,6 @@
 			(justify left)
 		)
 		(uuid "da1708d2-6da0-4f66-953a-5bafbd57a409")
-	)
-	(hierarchical_label "GPIO_3_OUT"
-		(shape output)
-		(at 157.48 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ddc0edc6-35e7-47df-98b5-16681d9d222b")
 	)
 	(hierarchical_label "CAN1{RX TX}"
 		(shape input)
@@ -12107,16 +12114,143 @@
 		)
 		(uuid "e8bd52c3-1ed6-4eaa-bc20-1fa4786a4749")
 	)
-	(hierarchical_label "GPIO_1_IN"
-		(shape input)
-		(at 157.48 58.42 0)
+	(rule_area
+		(polyline
+			(pts
+				(xy 143.51 134.62) (xy 173.99 134.62) (xy 173.99 151.13) (xy 143.51 151.13)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 601e6075-c1dd-49cc-8088-aee15d534929)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 143.51 93.98) (xy 173.99 93.98) (xy 173.99 100.33) (xy 143.51 100.33)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7abe1dd3-e378-4613-9af1-fe978c1a0567)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 143.51 50.8) (xy 173.99 50.8) (xy 173.99 72.39) (xy 143.51 72.39)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9349514d-892f-4fc1-a4e6-28821faeca49)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 173.99 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "fde6d3a9-6bf2-44ff-8aff-3f26b6e52d3f")
+		(uuid "26e3a97b-ae59-4551-9577-a68dc05807c6")
+		(property "Netclass" "ADC"
+			(at 174.6885 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -41.91 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 173.99 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8076ac63-3219-475c-bc58-3788f9fa5440")
+		(property "Netclass" "ADC"
+			(at 174.6885 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -41.91 -90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 173.99 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0db967e-2f95-4818-9a59-318e7852f79f")
+		(property "Netclass" "ADC"
+			(at 174.6885 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -41.91 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
